@@ -1,0 +1,56 @@
+body{
+    padding: 2rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background:linear-gradient(hsl(214, 47%, 23%) ,hsl(237, 49%, 15%));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    font-size: 20px;
+    margin: 0;
+    color: white;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    padding: .5rem 1.5rem;
+}
+
+.score h2{
+    font-size: 14px;
+    margin: 0;
+    color: hsl(229, 64%, 46%);
+}
+
+.score h1{
+    font-size: 32px;
+    margin: 0;
+    color: hsl(229, 25%, 31%);
+}
