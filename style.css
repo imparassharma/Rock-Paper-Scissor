@@ -6,6 +6,7 @@ body{
     background:linear-gradient(hsl(214, 47%, 23%) ,hsl(237, 49%, 15%));
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .main{
@@ -14,12 +15,12 @@ body{
 }
 
 .top-section{
-    border: 1px solid black;
+    border: 3px solid hsl(217, 16%, 45%);
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 .text{
@@ -31,6 +32,7 @@ body{
     font-size: 20px;
     margin: 0;
     color: white;
+    line-height: 1rem;
 }
 
 .score{
@@ -53,4 +55,102 @@ body{
     font-size: 32px;
     margin: 0;
     color: hsl(229, 25%, 31%);
+}
+
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-section .button{
+    padding: .5rem 2rem;
+    background-color: transparent;
+    border: 2px solid rgba(236, 234, 234, 0.89);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.button a{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.mid-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5.7rem 0rem;
+    background-image: url(images/bg-triangle.svg);
+    background-size: 12rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.paper{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 100%;
+    border: 1.2rem solid rgb(33, 90, 248);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.336);
+}
+
+.scissor{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 100%;
+    border: 1.2rem solid rgb(255, 211, 17);
+    box-shadow: inset 2px 5px 8px rgba(148, 144, 144, 0.534);
+}
+
+.rock{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 100%;
+    border: 1.2rem solid rgb(250, 22, 22);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.336);
+    margin-top: .5rem;
+}
+
+
+.mid-section img{
+    width: 80%;
+}
+
+.hidden{
+    display: none;
+}
+
+.mid-section.play{
+    background-image: none;
+    padding: 8.5rem 0rem;
+}
+
+.random{
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 100%;
+    width: 8.5rem;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.detail h2{
+    font-size: 16px;
+    color: white;
+    margin-left: 1.2rem;
 }
