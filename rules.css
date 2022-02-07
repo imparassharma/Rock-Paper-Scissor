@@ -3,6 +3,9 @@ body{
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
     padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main{
@@ -14,8 +17,9 @@ body{
 
 .main h1{
     color: hsl(229, 25%, 31%);
+    padding: 3rem;
 }
 
-.main img{
-    padding: 3rem 0rem;
+.close{
+    margin-top: 4rem;
 }
