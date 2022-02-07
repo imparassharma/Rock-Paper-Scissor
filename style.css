@@ -6,7 +6,7 @@ body{
     background:linear-gradient(hsl(214, 47%, 23%) ,hsl(237, 49%, 15%));
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .main{
@@ -64,7 +64,7 @@ body{
 }
 
 .bottom-section .button{
-    padding: .5rem 2rem 2rem 2rem;
+    padding: .5rem 2rem;
     background-color: transparent;
     border: 2px solid rgba(236, 234, 234, 0.89);
     border-radius: 10px;
