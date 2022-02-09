@@ -11,6 +11,7 @@ const rps = document.querySelectorAll(".rps");
 
 const rule_button = document.querySelector(".button");
 
+/*FUNCTION*/
 rps.forEach(function(r){
     r.addEventListener("click",function(e){
         mid.classList.add("hidden");
